@@ -89,7 +89,13 @@ async personalForm() {
 API Used : https://api.kraftshala.com/form/personal
 
 ```javascript
-   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+      const header = {
+          headers: {
+            authorization: 'Bearer ' + localStorage.getItem('auth_token'),
+          },
+        };
+
+      const res = await Axios.get(`https://api.kraftshala.com/form/personal`, header);
 ```
 
 ## Reflection Form
