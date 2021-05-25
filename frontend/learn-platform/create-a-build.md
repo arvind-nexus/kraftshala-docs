@@ -25,3 +25,17 @@
     
 4. Then compress the www folder into a zip folder  
 
+### For Linux users
+
+Run the following commands:
+
+```javascript
+sudo scp -i learnkraftshalacom.pem www.zip centos@learn.kraftshala.com:
+sudo ssh -i learnkraftshalacom.pem centos@learn.kraftshala.com 
+```
+To Gain root access:
+```javascript
+sudo -i
+```
+
+
