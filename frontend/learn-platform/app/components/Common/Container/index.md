@@ -14,7 +14,7 @@
 
 
 ## Mentor Rating
-Code for the can be found inside this function
+Code for this can be found inside this function
 ```javascript
 async checkMeeting() {
    ...
