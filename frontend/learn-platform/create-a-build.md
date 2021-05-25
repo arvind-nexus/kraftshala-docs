@@ -6,6 +6,7 @@
    * main index.html
    
     ```javascript
+    
          <link rel="stylesheet" href="css/fonts.css?v=1.5.58" />
          <script type="text/javascript" src="js/index.js?v=1.5.58"></script>
          <script type="text/javascript" src="js/build/app.min.js?v=1.5.58"></script>
@@ -63,6 +64,11 @@ cp -R www testlearn
  
 
 #### Learn Platform Build
+Before removing the current learn platform build. Don't forgot to make a backup of the folder
+```javascript
+cp -R learn learnBackup
+```
+
 Remove the existing learn folder and copy the www folder to create a new learn folder
 ```javascript
 rm -rf learn
