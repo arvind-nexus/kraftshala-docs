@@ -38,4 +38,20 @@ To Gain root access:
 sudo -i
 ```
 
+Change to html directory
+```javascript
+cd /usr/share/nginx/html/
+
+Remove the existing www or www.zip(if there is any)
+ rm -rf www.zip
+ rm -rf www
+```
+
+Move the www.zip and unzip the folder to the html directory
+```javascript
+mv /home/centos/www.zip .
+unzip www.zip 
+
+```
+
 
