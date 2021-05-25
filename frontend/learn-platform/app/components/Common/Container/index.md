@@ -26,15 +26,87 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
    `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
 ```
 
-
 ## Webinar Feedback
+Code for the can be found inside this function
+```javascript
+async checkMeeting() {
+   ...
+}
+```
+API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+
+```javascript
+   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+```
+
 
 ## Expert Rating
+Code for the can be found inside this function
+```javascript
+async checkMeeting() {
+   ...
+}
+```
+API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+
+```javascript
+   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+```
 
 ## Charter Rating
+Code for the can be found inside this function
+```javascript
+async checkMeeting() {
+   ...
+}
+```
+API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+
+```javascript
+   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+```
 
 ## Peer Rating
+Code for the can be found inside this function
+```javascript
+async checkMeeting() {
+   ...
+}
+```
+API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+
+```javascript
+   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+```
 
 ## Personal User Details
+Code for the can be found inside this function
+```javascript
+async checkMeeting() {
+   ...
+}
+```
+API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+
+```javascript
+   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+```
 
 ## Reflection Form
+Code for the can be found inside this function
+```javascript
+   async checkMeeting() {
+      ...
+   }
+```
+API Used : https://api.kraftshala.com/form/reflection
+
+```javascript
+      const header = {
+          headers: {
+            authorization: 'Bearer ' + localStorage.getItem('auth_token'),
+          },
+        };
+
+      const res = await Axios.get(`https://api.kraftshala.com/form/reflection`, header);
+```
