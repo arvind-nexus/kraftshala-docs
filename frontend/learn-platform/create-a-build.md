@@ -51,7 +51,24 @@ Move the www.zip and unzip the folder to the html directory
 ```javascript
 mv /home/centos/www.zip .
 unzip www.zip 
-
 ```
+
+#### Test Learn Platform Build
+Remove the existing testlearn folder and copy the www folder to create a new testlearn folder
+```javascript
+rm -rf testlearn
+
+cp -R www testlearn
+```
+ 
+
+#### Learn Platform Build
+Remove the existing learn folder and copy the www folder to create a new learn folder
+```javascript
+rm -rf learn
+
+cp -R www learn
+```
+
 
 
