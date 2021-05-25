@@ -7,10 +7,10 @@
     * [Mentor Rating](#mentor-rating)
     * [Webinar Feedback](#webinar-feedback)
     * [Expert Rating](#expert-rating)
-    * [Charter Rating](http://github.com)
-    * [Peer Rating](http://github.com)
-    * [Personal User Details](http://github.com)
-    * [Reflection Form](http://github.com)
+    * [Charter Rating](#charter-rating)
+    * [Peer Rating](#peer-rating)
+    * [Personal User Details](#personal-user-details)
+    * [Reflection Form](#reflection-form)
 
 
 ## Mentor Rating
