@@ -20,6 +20,12 @@ async checkMeeting() {
    ...
 }
 ```
+API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+
+```javascript
+   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+```
+
 
 ## Webinar Feedback
 
