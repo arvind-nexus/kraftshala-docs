@@ -27,7 +27,7 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 ```
 
 ## Webinar Feedback
-Code for the can be found inside this function
+Code for this can be found inside this function
 ```javascript
 async checkMeeting() {
    ...
@@ -41,7 +41,7 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 
 
 ## Expert Rating
-Code for the can be found inside this function
+Code for this can be found inside this function
 ```javascript
 async checkMeeting() {
    ...
@@ -54,7 +54,7 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 ```
 
 ## Charter Rating
-Code for the can be found inside this function
+Code for this can be found inside this function
 ```javascript
 async checkMeeting() {
    ...
@@ -67,7 +67,7 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 ```
 
 ## Peer Rating
-Code for the can be found inside this function
+Code for this can be found inside this function
 ```javascript
 async checkMeeting() {
    ...
@@ -80,7 +80,7 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 ```
 
 ## Personal User Details
-Code for the can be found inside this function
+Code for this can be found inside this function
 ```javascript
 async personalForm() {
    ...
@@ -99,7 +99,7 @@ API Used : https://api.kraftshala.com/form/personal
 ```
 
 ## Reflection Form
-Code for the can be found inside this function
+Code for this can be found inside this function
 ```javascript
    async reflectionForm() {
       ...
