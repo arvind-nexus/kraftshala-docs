@@ -82,11 +82,11 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 ## Personal User Details
 Code for the can be found inside this function
 ```javascript
-async checkMeeting() {
+async personalForm() {
    ...
 }
 ```
-API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+API Used : https://api.kraftshala.com/form/personal
 
 ```javascript
    `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
@@ -95,7 +95,7 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 ## Reflection Form
 Code for the can be found inside this function
 ```javascript
-   async checkMeeting() {
+   async reflectionForm() {
       ...
    }
 ```
