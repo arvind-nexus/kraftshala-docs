@@ -14,6 +14,12 @@
 
 
 ## Mentor Rating
+Code for the can be found inside this function
+```javascript
+async checkMeeting() {
+   ...
+}
+```
 
 ## Webinar Feedback
 
