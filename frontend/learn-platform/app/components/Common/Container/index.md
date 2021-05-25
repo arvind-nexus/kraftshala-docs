@@ -29,7 +29,7 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 ## Webinar Feedback
 Code for this can be found inside this function
 ```javascript
-async checkMeeting() {
+async checkWebinarFeedback() {
    ...
 }
 ```
@@ -43,7 +43,7 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 ## Expert Rating
 Code for this can be found inside this function
 ```javascript
-async checkMeeting() {
+async checkExpertMeeting() {
    ...
 }
 ```
@@ -56,7 +56,7 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 ## Charter Rating
 Code for this can be found inside this function
 ```javascript
-async checkMeeting() {
+async checkCharterRating() {
    ...
 }
 ```
@@ -69,7 +69,7 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 ## Peer Rating
 Code for this can be found inside this function
 ```javascript
-async checkMeeting() {
+async checkPeerRating() {
    ...
 }
 ```
