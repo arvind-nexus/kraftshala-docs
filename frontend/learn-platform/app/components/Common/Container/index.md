@@ -33,10 +33,10 @@ async checkWebinarFeedback() {
    ...
 }
 ```
-API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+API Used : https://interactions.kraftshala.com/fetchWebinarFeedback
 
 ```javascript
-   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+   `https://interactions.kraftshala.com/fetchWebinarFeedback/${user.email}`
 ```
 
 
@@ -47,10 +47,10 @@ async checkExpertMeeting() {
    ...
 }
 ```
-API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+API Used : https://api.kraftshala.com/api/find_zero_pending_feedback_user
 
 ```javascript
-   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+   `https://api.kraftshala.com/api/find_zero_pending_feedback_user/${user.email}`
 ```
 
 ## Charter Rating
