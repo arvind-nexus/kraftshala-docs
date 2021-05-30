@@ -60,10 +60,18 @@ async checkCharterRating() {
    ...
 }
 ```
-API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+API Used : https://api.kraftshala.com/task/charter-rating/pending
 
 ```javascript
-   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+    const header = {
+        headers: {
+          authorization: 'Bearer ' + localStorage.getItem('auth_token'),
+        },
+      };
+      const res = await Axios.get(
+        `https://api.kraftshala.com/task/charter-rating/pending`,
+        header
+      );
 ```
 
 ## Peer Rating
@@ -73,10 +81,18 @@ async checkPeerRating() {
    ...
 }
 ```
-API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+API Used : https://api.kraftshala.com/task/peer-rating/pending
 
 ```javascript
-   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+   const header = {
+          headers: {
+            authorization: 'Bearer ' + localStorage.getItem('auth_token'),
+          },
+        };
+        const res = await Axios.get(
+          `https://api.kraftshala.com/task/peer-rating/pending`,
+          header
+        );
 ```
 
 ## Personal User Details
