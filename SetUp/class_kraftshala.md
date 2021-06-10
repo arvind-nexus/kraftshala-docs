@@ -1,6 +1,6 @@
 # Steps to setup class.kraftshala.com on local ( windows )
 
-###Plateform requirements:
+### Plateform requirements:
 
 - mongodb: 3.4
 - xampp with php version 5.6
