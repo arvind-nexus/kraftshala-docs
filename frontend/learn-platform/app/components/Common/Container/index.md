@@ -14,7 +14,7 @@
 
 
 ## Mentor Rating
-Code for the can be found inside this function
+Code for this can be found inside this function
 ```javascript
 async checkMeeting() {
    ...
@@ -29,54 +29,70 @@ API Used : https://interactions.kraftshala.com/api/is_pending_feedback
 ## Webinar Feedback
 Code for this can be found inside this function
 ```javascript
-async checkMeeting() {
+async checkWebinarFeedback() {
    ...
 }
 ```
-API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+API Used : https://interactions.kraftshala.com/fetchWebinarFeedback
 
 ```javascript
-   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+   `https://interactions.kraftshala.com/fetchWebinarFeedback/${user.email}`
 ```
 
 
 ## Expert Rating
 Code for this can be found inside this function
 ```javascript
-async checkMeeting() {
+async checkExpertMeeting() {
    ...
 }
 ```
-API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+API Used : https://api.kraftshala.com/api/find_zero_pending_feedback_user
 
 ```javascript
-   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+   `https://api.kraftshala.com/api/find_zero_pending_feedback_user/${user.email}`
 ```
 
 ## Charter Rating
 Code for this can be found inside this function
 ```javascript
-async checkMeeting() {
+async checkCharterRating() {
    ...
 }
 ```
-API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+API Used : https://api.kraftshala.com/task/charter-rating/pending
 
 ```javascript
-   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+    const header = {
+        headers: {
+          authorization: 'Bearer ' + localStorage.getItem('auth_token'),
+        },
+      };
+      const res = await Axios.get(
+        `https://api.kraftshala.com/task/charter-rating/pending`,
+        header
+      );
 ```
 
 ## Peer Rating
 Code for this can be found inside this function
 ```javascript
-async checkMeeting() {
+async checkPeerRating() {
    ...
 }
 ```
-API Used : https://interactions.kraftshala.com/api/is_pending_feedback
+API Used : https://api.kraftshala.com/task/peer-rating/pending
 
 ```javascript
-   `https://interactions.kraftshala.com/api/is_pending_feedback/${userID}`
+   const header = {
+          headers: {
+            authorization: 'Bearer ' + localStorage.getItem('auth_token'),
+          },
+        };
+        const res = await Axios.get(
+          `https://api.kraftshala.com/task/peer-rating/pending`,
+          header
+        );
 ```
 
 ## Personal User Details
