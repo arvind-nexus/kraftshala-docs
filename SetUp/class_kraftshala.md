@@ -2,9 +2,9 @@
 
 ### Plateform requirements:
 
-- mongodb: 3.4
-- xampp with php version 5.6
-- Composer (dependency manager for PHP)
+- **mongodb** version 3.4
+- **xampp** with php version 5.6
+- **Composer** (dependency manager for PHP)
 - Set environment variables path accordingly
 
     * In user variable
@@ -25,7 +25,7 @@
 
 1. Clone Repository
 
-2. Run below commond in product folder
+2. Run below commond in project folder
 
     ```
      git pull origin master
