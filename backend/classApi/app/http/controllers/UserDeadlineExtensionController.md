@@ -74,7 +74,7 @@ public function getStatus($task_id, Request $request)
 http://api.kraftshala.com/deadline/status/{task_id}
 ````
 ### getPendingSubmission function
-To get the pending submission of task_ids of specific user for a specific course which tasks don't have extensions.
+This Function is used to find the task/assignment which are overdue  and need to fill the extension request 
 ```` php
 /*
 	*params
