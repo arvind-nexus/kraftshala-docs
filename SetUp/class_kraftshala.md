@@ -36,13 +36,13 @@
 3. Run below command
 
     ```
-     composer install command
+     composer install
     ```
 
 4. Now before running mongod commond in bin folder i.e. C:\Program Files\MongoDB\Server\3.4\bin make sure below points
 
-    * mongod commond by default search for ** data/db ** folder in root directory, so make sure you have these folders if you wanted to run mongod in some other folder, then you have to give the path of that folder while running ** mongod ** command
-    * for example if you want to run it in ** data/db/3.4 ** then run below command in ** C:\Program Files\MongoDB\Server\3.4\bin ** 
+    * mongod commond by default search for **data/db** folder in root directory, so make sure you have these folders if you wanted to run mongod in some other folder, then you have to give the path of that folder while running **mongod** command
+    * for example if you want to run it in **data/db/3.4** then run below command in **C:\Program Files\MongoDB\Server\3.4\bin** 
 
         ```
             mongod --dbpath "C:\data\db\3.4"
