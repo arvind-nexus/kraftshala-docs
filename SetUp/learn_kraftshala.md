@@ -21,7 +21,7 @@
      npm install
     ```
 
-4. If step 2 shows some errors like:
+4. If step 3 shows some errors like:
     ```
      gyp ERR! find Python 
      gyp ERR! find Python Python is not set from command line or npm configuration
