@@ -1,4 +1,4 @@
-# Steps to setup class.kraftshala.com on local ( windows )
+# Steps to setup Learn Plateform on local ( windows )
 
 ### Plateform requirements:
 
