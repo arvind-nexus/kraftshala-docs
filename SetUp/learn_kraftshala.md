@@ -36,7 +36,7 @@
         
     Ignore wornings while installation
 
-    -if errors continued then run below command
+    - if errors continues then run below command
     
     ``` 
         npm install --force
