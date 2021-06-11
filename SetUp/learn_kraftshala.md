@@ -38,7 +38,7 @@
 
     - if errors continues then run below command
     
-    
+
     ``` 
         npm install --force
     ```
@@ -53,10 +53,11 @@
 
     now if it shows packages not found in console or teminal then install those package seperately
     for example:
+
         ```
         npm rebuild node-sass
         npm install react-spring
         npm i @react-pdf/renderer
         ```
-        and install all the packages seperately which shows not found errors...
+    and install all the packages seperately which shows not found errors...
 
