@@ -1,9 +1,20 @@
 ## UserDailyTrackingController
 
 - This File Contain logic of 
-	- [User Deadline Extension Dashboard.](#index-function)
-	- [Request Approved/Reject Api.](#request-function)
-	- [From To submit during approval/reject by deadline extension mail Api.](#requestprocess-function)
+	- [findCourseDetails.](#findcoursedetails)
+	- [getDailyTask.](#getdailytask)
+	- [getTaskCharters.](#gettaskcharters)
+	- [getJamSession.](#getjamsession)
+	- [getTaskById.](#gettaskbyid)
+	- [getSubmissionDetails.](#getsubmissiondetails)
+	- [getTaskChartersVideo.](#gettaskchartersvideo)
+	- [downloadSubmissionInZip.](#downloadsubmissionInzip)
+	- [getDisscussionDetails.](#getdisscussiondetails)
+	- [getOverAllAttendanceForCamp.](#getoverallattendanceforcamp)
+	- [getWeekAttendance.](#getweekattendance)
+	- [getUserByCourseId.](#getuserbycourseId)
+	- [getAttendenceReportByUser.](#getattendencereportbyuser)
+	- [getReportAsExcel.](#getreportasexcel)
 
 ### Dependencies 
 ```` php
@@ -137,20 +148,184 @@ public function getJamSession(Request $req)
 ````javascript
  http://api.kraftshala.com/daily-tracking/jam-session
 ````
-### getJamSession
+### getTaskById
 ```` php
 /*
 	*params
-	@req->type
-	@req->course_id
+	@auth token
+	@task_id
 */
-public function getJamSession(Request $req)
+public function getTaskById(Request $request,$task_id)
 {
 	......
 }
 ````
 
-##### Api Url: http://api.kraftshala.com/daily-tracking/jam-session
+##### Api Url: http://api.kraftshala.com/daily-tracking/task/{task_id}
 ````javascript
- http://api.kraftshala.com/daily-tracking/jam-session
+ http://api.kraftshala.com/daily-tracking/task/{task_id}
+````
+### getSubmissionDetails
+```` php
+/*
+	*params
+	@auth token
+	@request->task_id
+*/
+public function getSubmissionDetails(Request $request, $task_id)
+{
+	......
+}
+````
+
+##### Api Url: http://api.kraftshala.com/daily-tracking/submission/{task_id}
+````javascript
+ http://api.kraftshala.com/daily-tracking/submission/{task_id}
+````
+### getTaskChartersFiles
+```` php
+/*
+	*params
+	@auth token
+	@task_id
+*/
+public function getTaskChartersFiles(Request $request,$task_id)
+{
+	......
+}
+````
+
+##### Api Url: http://api.kraftshala.com/daily-tracking/charters/files/{task_id}
+````javascript
+ http://api.kraftshala.com/daily-tracking/charters/files/{task_id}
+````
+### getTaskChartersVideo
+```` php
+/*
+	*params
+	@task_id
+*/
+public function getTaskChartersVideo($task_id)
+{
+	......
+}
+````
+##### Api Url: http://api.kraftshala.com/daily-tracking/charters/video/{task_id}
+````javascript
+ http://api.kraftshala.com/daily-tracking/charters/video/{task_id}
+````
+### downloadSubmissionInZip
+```` php
+/*
+	*params
+	@auth token
+	@task_id
+*/
+public function downloadSubmissionInZip($task_id, Request $request)
+{
+	......
+}
+````
+##### Api Url: http://api.kraftshala.com/daily-tracking/submission/download/{task_id}
+````javascript
+ http://api.kraftshala.com/daily-tracking/submission/download/{task_id}
+````
+### getDisscussionDetails
+```` php
+/*
+	*params
+	@task_id
+*/
+public function getDisscussionDetails($task_id)
+{
+	......
+}
+````
+##### Api Url: http://api.kraftshala.com/daily-tracking/discussion/{task_id}
+````javascript
+ http://api.kraftshala.com/daily-tracking/discussion/{task_id}
+````
+### getOverAllAttendanceForCamp
+```` php
+/*
+	*params
+	@course_id
+	@user
+*/
+public function getOverAllAttendanceForCamp($course_id,$user)
+{
+	......
+}
+````
+### getOverAllAttendance
+```` php
+/*
+	*params
+	@request->course_id
+*/
+public function getOverAllAttendance(Request $request)
+{
+	......
+}
+````
+##### Api Url: http://api.kraftshala.com/daily-tracking/attendance/
+````javascript
+ http://api.kraftshala.com/daily-tracking/attendance/
+````
+### getWeekAttendance
+```` php
+/*
+	*params
+	@auth token
+*/
+public function getWeekAttendance(Request $request)
+{
+	......
+}
+````
+##### Api Url: http://api.kraftshala.com/daily-tracking/attendance/week
+````javascript
+ http://api.kraftshala.com/daily-tracking/attendance/week
+````
+### getUserByCourseId
+```` php
+/*
+	*params
+	@request->course_id
+*/
+public function getUserByCourseId(Request $request)
+{
+	......
+}
+````
+##### Api Url: http://api.kraftshala.com/daily-tracking/getdata/
+````javascript
+ http://api.kraftshala.com/daily-tracking/getdata/
+````
+### getAttendenceReportByUser
+```` php
+/*
+	*params
+	@user_id
+	@from
+	@to
+	@course_id (default = "5fb5198540b75e98348b4567")
+*/
+ public function getAttendenceReportByUser($user_id, $from, $to, $course_id = "5fb5198540b75e98348b4567")
+{
+	......
+}
+````
+### getReportAsExcel
+```` php
+/*
+	*params
+	@report
+	@to
+	@from
+*/
+public function getReportAsExcel($report,$to,$from)
+{
+	......
+}
 ````
