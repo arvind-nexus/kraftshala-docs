@@ -33,9 +33,10 @@
         npm install --global --production windows-build-tools
         npm install node-gyp
     ```
-        Ignore wornings while installation
+        
+    Ignore wornings while installation
 
-        * if errors continued then run below command
+    -if errors continued then run below command
     
     ``` 
         npm install --force
