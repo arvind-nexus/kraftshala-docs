@@ -17,26 +17,30 @@
     ```
     > It is better to borrow package.json, config.xml and .gitignore files from developer to reduce setup issues
 
-3. get cordova-plugin-inappbrowser zip file from developer or just clone below git repository in the base folder
+
+3. get cordova-plugin-inappbrowser zip file from developer or just clone below git repository in the root folder
 
     ```
         https://github.com/apache/cordova-plugin-inappbrowser
     ```
 
-    repeat same above step for cordova-plugin-facebook4
+    repeat same step as above for cordova-plugin-facebook4
 
     now make sure your folder structure should be look like below example folder 
 
-    >   **>class_v2**
-	>	**>cordova-plugin-inappbrowser**
-	>	**>cordova-plugin-facebook4**
+    ```
+        >class_v2 
+        >cordova-plugin-inappbrowser    
+        >cordova-plugin-facebook4 
+    ```
+      
 
 3. Now run below command in project directory
 
     ```
      npm install
     ```
-        if above command does not run successfully then run below commands
+        if above command does not run successfully then run
 
         ```
             npm install --force
