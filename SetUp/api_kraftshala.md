@@ -37,7 +37,7 @@
 
     ```
         Illuminate\Foundation\ComposerScripts::postAutoloadDump
-        PHP Fatal error:  Declaration of Illuminate\Container\Container::get($id) must be compatible with Psr\Container	\ContainerInterface::get(string $id) in D:\class\xampp\htdocs\classApi main\class_api\vendor\laravel\framework\src\Illuminate\Container\Container.php on line 15
+        PHP Fatal error:  Declaration of Illuminate\Container\Container::get($id) must be compatible with Psr\Container\ContainerInterface::get(string $id) in D:\class\xampp\htdocs\classApi main\class_api\vendor\laravel\framework\src\Illuminate\Container\Container.php on line 15
 
         Fatal error: Declaration of Illuminate\Container\Container::get($id) must be compatible with Psr\Container\ContainerInterface::get(string $id) in D:\class\xampp\htdocs\classApi main\class_api\vendor\laravel\framework\src\Illuminate\Container\Container.php on line 15
     ```
