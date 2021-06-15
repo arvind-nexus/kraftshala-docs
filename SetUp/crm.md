@@ -20,15 +20,13 @@
      npm install
     ```
 
-4. If step 3 shows some errors like:
-
-    then run following command
+    if above command shows error then run
 
     ``` 
         npm install --force
     ```
 
-5. Now run below cammands to run the project in local
+4. Now run below cammands to run the project in local
 
     ```
         npm start
