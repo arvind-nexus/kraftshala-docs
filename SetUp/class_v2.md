@@ -40,15 +40,16 @@
     ```
      npm install
     ```
-        if above command does not run successfully then run
+    
+    if above command does not run successfully then run
 
-        ```
-            npm install --force
-        ```
-        if again it shows error related to sass while running above command  then run
-        ```
-            npm rebuild node-sass
-        ```
+    ```
+        npm install --force
+    ```
+    if again it shows error related to sass while running above command  then run
+    ```
+        npm rebuild node-sass
+    ```
 
 4. Install cordava globally 
 
