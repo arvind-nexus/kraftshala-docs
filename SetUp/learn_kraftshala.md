@@ -43,10 +43,10 @@
         npm install --force
     ```
 
-5. Now run below cammands to run the project in local
+5. Now run below two cammands in different terminal to run the project in local
 
     ```
-        now run: npm start
+        npm start
         npm run watch
 
     ```
