@@ -56,7 +56,7 @@
 
     ```
         "require": {
-        	"php": "^7.1.3",
+        	    "php": "^7.1.3",
                 "psr/container": "1.0.0",
                 "ext-curl": "*",
                 "ext-json": "*",
