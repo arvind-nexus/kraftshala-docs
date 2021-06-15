@@ -14,7 +14,7 @@
      git pull origin master
     ```
 
-3. Run below command in project directory
+3. Now run
 
     ```
      npm install
