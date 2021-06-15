@@ -4,9 +4,11 @@
 
 - **xampp** with php version 7.1.3
 - **Composer** (dependency manager for PHP)
-    >  latest version of composer (can update compser with command i.e. 'composer self-update')
+    >  latest version of composer (can update composer with command i.e. 'composer self-update')
 
 - Set environment variables path accordingly
+
+
 
 1. Clone Repository
 
@@ -15,8 +17,10 @@
     ```
      git pull origin master
     ```
-    > .env, php_mongo.dll are needed for setup => put php_mongo.dll file in xampp\php\ext folder, .env file in project root directory 
+    > .env, php_mongo.dll are needed for setup => put **php_mongo.dll** file in **xampp\php\ext** folder, **.env** file in project root directory 
+
     >  note:: it is better to borrow .env, package.json, composer.json and php_mongo.dll from developer.
+
 
 3. Run below command
 

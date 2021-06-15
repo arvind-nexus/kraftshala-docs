@@ -23,12 +23,12 @@
     if above command shows error then run
 
     ``` 
-        npm install --force
+    npm install --force
     ```
 
 4. Now run below cammands to run the project in local
 
     ```
-        npm start
+    npm start
     ```
 

@@ -30,8 +30,8 @@
     then run following command in cmd (run cmd as administrator)
 
     ```
-        npm install --global --production windows-build-tools
-        npm install node-gyp
+    npm install --global --production windows-build-tools
+    npm install node-gyp
     ```
         
     Ignore wornings while installation
@@ -40,15 +40,14 @@
     
 
     ``` 
-        npm install --force
+    npm install --force
     ```
 
 5. Now run below two cammands in different terminal to run the project in local
 
     ```
-        npm start
-        npm run watch
-
+    npm start
+    npm run watch
     ```
 
     now if it shows packages not found in console or teminal then install those package seperately

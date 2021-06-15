@@ -21,7 +21,7 @@
 3. get cordova-plugin-inappbrowser zip file from developer or just clone below git repository in the root folder
 
     ```
-        https://github.com/apache/cordova-plugin-inappbrowser
+    https://github.com/apache/cordova-plugin-inappbrowser
     ```
 
     repeat same step as above for cordova-plugin-facebook4
@@ -29,9 +29,9 @@
     now make sure your folder structure should be look like below example folder 
 
     ```
-        >class_v2 
-        >cordova-plugin-inappbrowser    
-        >cordova-plugin-facebook4 
+    >class_v2 
+    >cordova-plugin-inappbrowser    
+    >cordova-plugin-facebook4 
     ```
       
 
@@ -44,22 +44,22 @@
     if above command does not run successfully then run
 
     ```
-        npm install --force
+    npm install --force
     ```
     if again it shows error related to sass while running above command  then run
     ```
-        npm rebuild node-sass
+    npm rebuild node-sass
     ```
 
 4. Install cordava globally 
 
     ```
-        npm install -g cordova
+    npm install -g cordova
     ```
     and run 
 
     ```
-       cordova platform add android 
+    cordova platform add android 
     ```
 
     if it show error like 'script is disable' then go to **C:\Users\your_system_directory\AppData\Roaming\npm** and **delete .ps1** file and then again run above command
@@ -67,7 +67,6 @@
 5. Now run below two cammands in different terminal to run the project in local
 
     ```
-        npm start
-        npm run watch
-
+    npm start
+    npm run watch
     ```
