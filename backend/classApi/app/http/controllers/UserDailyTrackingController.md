@@ -63,6 +63,7 @@ use ZipArchive;
 ````
 
 #### findCourseDetails
+This Function use to find the course type to filter the program on the basis of that for example filter the program between submission hub,pBM Camp and Dialy
 ```` php
 /*
 	*params 
