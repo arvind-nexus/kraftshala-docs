@@ -75,11 +75,13 @@ public function findCourseDetails(Request $request)
 }
 ````
 ##### Api Url: http://api.kraftshala.com/daily-tracking/find-course
+This api used at a time of course creation on expert admin platform
 ````javascript
  http://api.kraftshala.com/daily-tracking/find-course
 ````
 
 ### getDailyTask
+This function is use to send the details of upcoming/completed based for a user on the basis of submission type
 ```` php
 /*
 	*params
@@ -92,6 +94,7 @@ public function getDailyTask(Request $req)
 }
 ````
 ##### Api Url: http://api.kraftshala.com/daily-tracking/task/
+This api is used on Dashboard and Submission Tab of new UI for PBM and Daily Course
 ````javascript
  http://api.kraftshala.com/daily-tracking/task/
 ````
