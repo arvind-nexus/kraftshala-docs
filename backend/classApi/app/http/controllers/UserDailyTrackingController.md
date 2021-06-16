@@ -94,7 +94,7 @@ public function getDailyTask(Request $req)
 }
 ````
 ##### Api Url: http://api.kraftshala.com/daily-tracking/task/
-This api is used on Dashboard and Submission Tab of new UI for PBM and Daily Course
+This api is used on Dashboard and Submission Tab on learn new UI for PBM and Daily Course
 ````javascript
  http://api.kraftshala.com/daily-tracking/task/
 ````
