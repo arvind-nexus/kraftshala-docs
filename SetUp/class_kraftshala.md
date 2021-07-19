@@ -10,16 +10,16 @@
     * In user variable
 
     ```
-        C:\Program Files\MongoDB\Server\3.4\bin
-        C:\composer
-        C:\xampp\php
+    C:\Program Files\MongoDB\Server\3.4\bin
+    C:\composer
+    C:\xampp\php
     ```
 
     * In system variable
 
     ```
-        C:\xampp\php
-        C:\composer
+    C:\xampp\php
+    C:\composer
     ```
 
 
@@ -45,11 +45,11 @@
     * for example if you want to run it in **data/db/3.4** then run below command in **C:\Program Files\MongoDB\Server\3.4\bin** 
 
         ```
-            mongod --dbpath "C:\data\db\3.4"
+        mongod --dbpath "C:\data\db\3.4"
         ```       
         otherwise
         ```
-            mongod
+        mongod
         ```
 
 5. Make sure database name in dump folder and in .env file should be same their could be spelling and lower and upper

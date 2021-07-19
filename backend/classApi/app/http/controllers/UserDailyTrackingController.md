@@ -63,6 +63,7 @@ use ZipArchive;
 ````
 
 #### findCourseDetails
+This Function use to find the course type to filter the program on the basis of that for example filter the program between submission hub,pBM Camp and Dialy
 ```` php
 /*
 	*params 
@@ -74,11 +75,13 @@ public function findCourseDetails(Request $request)
 }
 ````
 ##### Api Url: http://api.kraftshala.com/daily-tracking/find-course
+This api used at a time of course creation on expert admin platform
 ````javascript
  http://api.kraftshala.com/daily-tracking/find-course
 ````
 
 ### getDailyTask
+This function is use to send the details of upcoming/completed based for a user on the basis of submission type
 ```` php
 /*
 	*params
@@ -91,11 +94,13 @@ public function getDailyTask(Request $req)
 }
 ````
 ##### Api Url: http://api.kraftshala.com/daily-tracking/task/
+This api is used on Dashboard and Submission Tab on learn platform new UI for PBM and Daily Course
 ````javascript
  http://api.kraftshala.com/daily-tracking/task/
 ````
 
 ### uploadSubmission
+This function is used to submit the file uploaded by user for a daily course task
 ```` php
 /*
 	*params
@@ -111,10 +116,12 @@ public function uploadSubmission(Request $request)
 ````
 
 ##### Api Url: http://api.kraftshala.com/daily-tracking/submission
+This api ise used on learn platform new ui for daily course at a time of upload/resubmit submission
 ````javascript
  http://api.kraftshala.com/daily-tracking/submission/
 ````
 ### getTaskCharters
+This function is used to send the details task charter
 ```` php
 /*
 	*params
@@ -132,6 +139,7 @@ public function getTaskCharters(Request $request)
  http://api.kraftshala.com/daily-tracking/charters/
 ````
 ### getJamSession
+This function is used to send the details of upcoming/past jam session based on type
 ```` php
 /*
 	*params
@@ -145,10 +153,12 @@ public function getJamSession(Request $req)
 ````
 
 ##### Api Url: http://api.kraftshala.com/daily-tracking/jam-session
+This api is used on Dashboard and Submission Tab on learn platform new UI for PBM and Daily Course
 ````javascript
  http://api.kraftshala.com/daily-tracking/jam-session
 ````
 ### getTaskById
+This function is used to send the details of task including guidelines , description and deadline 
 ```` php
 /*
 	*params
@@ -162,10 +172,12 @@ public function getTaskById(Request $request,$task_id)
 ````
 
 ##### Api Url: http://api.kraftshala.com/daily-tracking/task/{task_id}
+This api is used to fetch the task details on learn platform new UI for PBM and Daily Course
 ````javascript
  http://api.kraftshala.com/daily-tracking/task/{task_id}
 ````
 ### getSubmissionDetails
+This function is used to find the submission details for a specific task id ,means it is used to find that user is uploaded the submission for that task or not if submitted then submitted on time or not
 ```` php
 /*
 	*params
@@ -179,10 +191,12 @@ public function getSubmissionDetails(Request $request, $task_id)
 ````
 
 ##### Api Url: http://api.kraftshala.com/daily-tracking/submission/{task_id}
+Used on learn platform new ui for PBM and daily course
 ````javascript
  http://api.kraftshala.com/daily-tracking/submission/{task_id}
 ````
 ### getTaskChartersFiles
+Used to send the details of task charters including file link and video link
 ```` php
 /*
 	*params
@@ -196,6 +210,7 @@ public function getTaskChartersFiles(Request $request,$task_id)
 ````
 
 ##### Api Url: http://api.kraftshala.com/daily-tracking/charters/files/{task_id}
+Used on learn platform for daily and New pbm course to fetch the charters files s3 link
 ````javascript
  http://api.kraftshala.com/daily-tracking/charters/files/{task_id}
 ````
@@ -211,10 +226,12 @@ public function getTaskChartersVideo($task_id)
 }
 ````
 ##### Api Url: http://api.kraftshala.com/daily-tracking/charters/video/{task_id}
+Used on learn platform for daily and New pbm course to fetch the charters videos s3 link
 ````javascript
  http://api.kraftshala.com/daily-tracking/charters/video/{task_id}
 ````
 ### downloadSubmissionInZip
+This function is used to download the submission of a specific task in a zip file
 ```` php
 /*
 	*params
@@ -227,6 +244,7 @@ public function downloadSubmissionInZip($task_id, Request $request)
 }
 ````
 ##### Api Url: http://api.kraftshala.com/daily-tracking/submission/download/{task_id}
+Used on learn platform new ui for daily and new PBM course
 ````javascript
  http://api.kraftshala.com/daily-tracking/submission/download/{task_id}
 ````
